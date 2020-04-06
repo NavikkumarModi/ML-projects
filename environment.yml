@@ -1,0 +1,36 @@
+name: RL-env
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - python>=3.6
+ - jupyter
+ # DWH querying
+ - sqlalchemy
+ - pyodbc
+ # Data processing
+ - dask
+ - distributed
+ - python-graphviz
+ - numpy
+ - pandas
+ - numexpr
+ - bottleneck
+ - xlrd
+ - lxml
+ # Modelling
+ - scikit-learn
+ - tensorflow
+ - xgboost
+ - lightgbm
+ # Visualization
+ - matplotlib
+ # Utilities
+ - tqdm
+ - unidecode
+ - joblib
+ - requests
+ # Testing and linting
+ - flake8
+ - pylint
+ - pytest
